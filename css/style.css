@@ -294,10 +294,10 @@
     }
     .nav-index{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     /*index*/
-    .art-index img{
+    .art__index img{
         height: 400px;
     }
     /*destino*/
@@ -360,6 +360,13 @@
         height: 100px;}
     .footer__redes{
         display: none;
+    }
+
+    /*calendario*/
+    .card-main{
+        flex-direction: column;
+        display: flex;
+        align-items: flex-end;
     }
     
 }
