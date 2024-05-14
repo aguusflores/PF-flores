@@ -1,0 +1,23 @@
+//vars
+@import './reset/variables';
+@import './reset/mixins';
+
+//reset
+@import './reset/config';
+
+
+//header
+@import 'encabezado';
+
+//main
+@import 'principal';
+
+//footer
+@import 'footer';
+
+//mq
+@import './reset/mq';
+
+
+
+

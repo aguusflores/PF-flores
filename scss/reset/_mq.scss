@@ -1,0 +1,88 @@
+
+
+@media (max-width:768px) {
+    .encabezado{
+        height: 80%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        display: flex;
+       
+    }
+    .nav-index{
+        display: flex;
+        flex-direction: row;
+    }
+    //index
+    .art__index img{
+        height: 400px;
+    }
+    //destino
+    .img-destino{
+        height: 400px;
+        
+    }
+    //calendario
+    .card-main{
+        flex-direction: column;
+        display: flex;
+        align-content: flex-start;
+    }
+    //FAQ
+    .imgfaqq{
+       
+        display: flex;
+        justify-content: center
+    }
+
+    .imgfaq{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+    //FOOTER
+    .footer__img img{
+        height: 150px;
+    
+}
+}
+
+@media (max-width:320px) {
+    //index
+    .art__index img{
+        height: 220px;
+     }
+    //destinos
+    .img-destino{
+        height: 200px;
+    }
+    .maps{
+        height: 220px;
+        width: 280px;
+    }
+    .nav-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    //actividades
+    .actividades img{
+        width: 280px;
+    }
+    //faq
+    .imgfaq{
+        width: 280px;
+    }
+    .footer__img img{
+        height: 100px;}
+    .footer__redes{
+        display: none;
+    }
+
+    //
+    .card-main{
+        flex-direction: column;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+}

@@ -1,0 +1,2 @@
+# Mi proyecto de Nomade trekking
+# Este documento proporciona información clave sobre la ruta, el terreno, los puntos de interés y las precauciones importantes que debes tener en cuenta antes de embarcarte en esta aventura.

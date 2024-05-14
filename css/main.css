@@ -1,0 +1,294 @@
+* {
+  margin: 0%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.encabezado {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.nav-index {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.nav-index li {
+  list-style: none;
+  margin-left: 20px;
+}
+.nav-index li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.main {
+  background-color: rgba(250, 235, 215, 0.4156862745);
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5882352941);
+}
+.main h1 {
+  font-family: "Rowdies";
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: chocolate;
+}
+
+.art__index h2 {
+  font-family: "Rowdies";
+  font-size: 25px;
+  color: #ab6635;
+}
+.art__index li {
+  list-style-type: circle;
+}
+.art__index img {
+  height: 600px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.img-index {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.dropdown {
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #ab6635;
+}
+
+.card-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-left: 350px;
+  padding-top: 30px;
+}
+
+.h1calendario {
+  padding-top: 30px;
+}
+
+.card {
+  background-color: #a39987;
+  width: 300px;
+  border-radius: 15px;
+  border: 1px solid hwb(0 0% 100%/0.366);
+}
+.card p {
+  text-align: center;
+}
+.card h2 {
+  font-size: 25px;
+}
+.card button {
+  font-family: "Didact Gothic", sans-serif;
+  background-color: #a39987;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 250px;
+  padding-left: 12px;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+.aside-calendario {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.aside-calendario h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.destinos h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-decoration-line: underline;
+  font-size: 25px;
+  font-family: "Rowdies";
+  color: #ab6635;
+}
+
+.img-destino {
+  height: 600px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+.actividades {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.actividades img {
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.actividades h1 {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 35px;
+}
+.actividades h2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-decoration-line: underline;
+  font-size: 25px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+.contacto img {
+  height: 150px;
+}
+
+.form-contacto {
+  padding-bottom: 20px;
+}
+
+.accordion-flush {
+  padding-top: 30px;
+}
+
+.footer {
+  background-color: rgba(250, 235, 215, 0.4156862745);
+  padding-top: 20px;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "img-footer ul-footer redes-footer";
+}
+.footer__grid__ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  grid-area: ul-footer;
+}
+.footer__grid__ul li {
+  list-style: none;
+  display: inline-block;
+}
+.footer__grid__ul li a {
+  color: #d2af7d;
+  text-decoration: none;
+  font-family: "Didact Gothic", sans-serif;
+}
+.footer__img {
+  grid-area: img-footer;
+}
+.footer__img img {
+  height: 200px;
+}
+
+.footer__redes {
+  grid-area: redes-footer;
+}
+
+@media (max-width: 768px) {
+  .encabezado {
+    height: 80%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .nav-index {
+    display: flex;
+    flex-direction: row;
+  }
+  .art__index img {
+    height: 400px;
+  }
+  .img-destino {
+    height: 400px;
+  }
+  .card-main {
+    flex-direction: column;
+    display: flex;
+    align-content: flex-start;
+  }
+  .imgfaqq {
+    display: flex;
+    justify-content: center;
+  }
+  .imgfaq {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+  }
+  .footer__img img {
+    height: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .art__index img {
+    height: 220px;
+  }
+  .img-destino {
+    height: 200px;
+  }
+  .maps {
+    height: 220px;
+    width: 280px;
+  }
+  .nav-index {
+    display: flex;
+    flex-direction: column;
+  }
+  .actividades img {
+    width: 280px;
+  }
+  .imgfaq {
+    width: 280px;
+  }
+  .footer__img img {
+    height: 100px;
+  }
+  .footer__redes {
+    display: none;
+  }
+  .card-main {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

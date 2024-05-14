@@ -1,0 +1,40 @@
+.encabezado{
+    
+    background-color: white;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.logo {
+   
+   width: 50px; 
+  height: auto;}
+    
+
+//nav
+.nav-index {
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-between;
+    li{
+        list-style: none;
+        margin-left: 20px;
+        a {
+            text-decoration: none;
+            color: hsl(0, 0%, 0%);
+            font-weight: bold; 
+        
+        }
+    }
+}
+
+
+.nav-link {
+    margin-right: 10px;}
+
+
+    

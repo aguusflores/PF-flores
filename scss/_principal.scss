@@ -1,0 +1,172 @@
+//main index
+
+.main {
+    background-color: $bck-footer ;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00000096;
+    
+    h1{
+        font-family: $font-huno;
+        padding-top: map-get($padding, mediano) ;
+        padding-bottom: 10px;
+        font-size: 30px;
+        color: chocolate;
+            
+        }
+
+   
+}
+
+.art__index{
+    h2{
+        font-family: $font-huno;
+        font-size: $size-h;
+        color: $color-hdos;
+    }
+
+    li {
+        list-style-type: circle;
+    }
+
+    img {
+        height: 600px;
+        padding-bottom: 10px;
+        padding-top: map-get($padding, chico )
+    
+    }
+    
+
+}
+
+.img-index{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.dropdown{
+    padding-bottom: 20px;
+   
+}
+.btn{
+    background-color: $color-hdos;
+}
+
+//CARD
+
+.card-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 350px;
+    padding-top: 30px;
+}
+.h1calendario{
+    padding-top: 30px;
+}
+.card {
+    background-color: $bck-card;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid hwb(0 0% 100% / 0.366);
+
+    p {
+        text-align: center;
+    
+    }
+
+    h2{
+        font-size: $size-h;
+    }
+
+    button {
+        font-family: $font-princ;
+        background-color: $bck-card;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+.card-img  {
+    width: 250px;
+    padding-left: 12px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+.aside-calendario{
+   text-align: center;
+   @include pad;
+
+   h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: $size-h;
+ }
+   
+}
+
+//destinos
+
+.destinos h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+    font-size: $size-h;
+    font-family: $font-huno;
+    color: $color-hdos;
+}
+
+.img-destino {
+    height: 600px;
+    @include relleno;
+    border-radius: 20px;
+}
+
+
+//Actividades
+.actividades{
+    @include pad;
+    img {
+        width: 400px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        
+    }
+    h1{
+        @include pad;
+        font-size: 35px;
+    }
+    h2{
+        @include relleno;
+        text-decoration-line: underline;
+        font-size: $size-h;
+    }
+
+}
+
+//Contacto
+.contacto{
+    display: flex;
+   flex-direction: column;
+   img{
+    height: 150px;
+}
+
+}
+
+.form-contacto{
+    padding-bottom: 20px;
+}
+
+//FAQ
+
+.accordion-flush{
+    padding-top: 30px;
+}
