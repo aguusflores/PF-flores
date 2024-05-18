@@ -55,6 +55,15 @@
   color: chocolate;
 }
 
+.intro {
+  max-width: 1400px;
+  margin: 40px auto;
+}
+
+.art__index {
+  max-width: 1100px;
+  margin: 40px auto;
+}
 .art__index h2 {
   font-family: "Rowdies";
   font-size: 25px;
@@ -132,6 +141,10 @@
   font-size: 25px;
 }
 
+.destinos {
+  max-width: 1100px;
+  margin: 40px auto;
+}
 .destinos h2 {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -149,8 +162,18 @@
 }
 
 .actividades {
+  max-width: 1300px;
+  margin: 40px auto;
   padding-bottom: 20px;
   padding-top: 10px;
+}
+.actividades h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-decoration-line: underline;
+  font-size: 25px;
+  font-family: "Rowdies";
+  color: #ab6635;
 }
 .actividades img {
   width: 400px;

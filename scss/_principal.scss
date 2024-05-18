@@ -19,12 +19,21 @@
 
    
 }
+.intro{
+    max-width: 1400px;
+    margin: 40px auto; 
+
+}
 
 .art__index{
+    max-width: 1100px;
+    margin: 40px auto; 
+
     h2{
         font-family: $font-huno;
         font-size: $size-h;
         color: $color-hdos;
+        
     }
 
     li {
@@ -113,15 +122,21 @@
 }
 
 //destinos
-
-.destinos h2{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-decoration-line: underline;
-    font-size: $size-h;
-    font-family: $font-huno;
-    color: $color-hdos;
+.destinos{
+    max-width: 1100px;
+    margin: 40px auto; 
+        h2{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            text-decoration-line: underline;
+            font-size: $size-h;
+            font-family: $font-huno;
+            color: $color-hdos;
+        }         
+    
 }
+
+
 
 .img-destino {
     height: 600px;
@@ -132,6 +147,16 @@
 
 //Actividades
 .actividades{
+    max-width: 1300px;
+    margin: 40px auto; 
+     h2{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            text-decoration-line: underline;
+            font-size: $size-h;
+            font-family: $font-huno;
+            color: $color-hdos;}
+        
     @include pad;
     img {
         width: 400px;
